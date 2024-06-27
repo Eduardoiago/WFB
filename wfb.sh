@@ -61,7 +61,7 @@ info() {
 	read -p "Press ENTER to return to the Menu." menu
 }
 
-encrypt_file() { # Função para criptografar arquivo
+encrypt_file() {
 	echo " "
 	echo "                ENCRYPT FILE"
 	echo "============================="
@@ -78,7 +78,7 @@ encrypt_file() { # Função para criptografar arquivo
 	read -p "Press ENTER to return to the menu." menu
 }
 
-decrypt_file() { # Função para descriptografar arquivo
+decrypt_file() {
     	echo " "
     	echo "                 DECRYPT FILE"
     	echo "=============================="
@@ -95,7 +95,7 @@ decrypt_file() { # Função para descriptografar arquivo
 	read -p "Press ENTER to return to the menu." menu
 }
 
-encrypt_dir() { # Função para criptografar diretório
+encrypt_dir() {
     	echo " "
     	echo "                 ENCRYPT DIR"
     	echo "============================="
@@ -112,9 +112,9 @@ encrypt_dir() { # Função para criptografar diretório
 	read -p "Press ENTER to return to the menu." menu
 }
 
-decrypt_dir() { # Função para descriptografar diretório
+decrypt_dir() {
     	echo " "
-    	echo "  DECRYPT DIR"
+    	echo "                 DECRYPT DIR"
     	echo "============================="
     	read -p "Select the directory PATH: " dir
     	existence "$dir"
